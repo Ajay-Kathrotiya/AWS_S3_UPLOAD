@@ -1,0 +1,156 @@
+2025-12-15 10:28:41,997 | INFO | __main__ | Application started
+2025-12-15 10:28:41,997 | INFO | scripts.transform | Reading input file: input_data/sales.csv
+2025-12-15 10:28:41,997 | ERROR | scripts.transform | Input file not found: input_data/sales.csv
+Traceback (most recent call last):
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\scripts\transform.py", line 10, in transform_data
+    df = pd.read_csv(input_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'input_data/sales.csv'
+2025-12-15 10:28:42,006 | CRITICAL | __main__ | Application failed
+Traceback (most recent call last):
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\main.py", line 17, in <module>
+    transform_data(INPUT_FILE, OUTPUT_FILE)
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\scripts\transform.py", line 10, in transform_data
+    df = pd.read_csv(input_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'input_data/sales.csv'
+2025-12-15 10:29:38,533 | INFO | __main__ | Application started
+2025-12-15 10:29:38,533 | INFO | scripts.transform | Reading input file: input_data/sales.csv
+2025-12-15 10:29:38,533 | ERROR | scripts.transform | Input file not found: input_data/sales.csv
+Traceback (most recent call last):
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\scripts\transform.py", line 10, in transform_data
+    df = pd.read_csv(input_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'input_data/sales.csv'
+2025-12-15 10:29:38,551 | CRITICAL | __main__ | Application failed
+Traceback (most recent call last):
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\main.py", line 17, in <module>
+    transform_data(INPUT_FILE, OUTPUT_FILE)
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\scripts\transform.py", line 10, in transform_data
+    df = pd.read_csv(input_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'input_data/sales.csv'
+2025-12-15 10:31:03,339 | INFO | __main__ | Application started
+2025-12-15 10:31:03,339 | INFO | scripts.transform | Reading input file: input_data/sales.csv
+2025-12-15 10:31:03,342 | INFO | scripts.transform | Handling missing values
+2025-12-15 10:31:03,342 | INFO | scripts.transform | Creating total_amount column
+2025-12-15 10:31:03,345 | ERROR | scripts.transform | Unexpected error during data transformation
+Traceback (most recent call last):
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\scripts\transform.py", line 18, in transform_data
+    df.to_csv(output_file, index=False)
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'processed_data'
+2025-12-15 10:31:03,349 | CRITICAL | __main__ | Application failed
+Traceback (most recent call last):
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\main.py", line 17, in <module>
+    transform_data(INPUT_FILE, OUTPUT_FILE)
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\scripts\transform.py", line 18, in transform_data
+    df.to_csv(output_file, index=False)
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\Ajay\OneDrive\Desktop\PythonProject\.venv\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'processed_data'
+2025-12-15 10:32:34,837 | INFO | __main__ | Application started
+2025-12-15 10:32:34,837 | INFO | scripts.transform | Reading input file: input_data/sales.csv
+2025-12-15 10:32:34,837 | INFO | scripts.transform | Handling missing values
+2025-12-15 10:32:34,837 | INFO | scripts.transform | Creating total_amount column
+2025-12-15 10:32:34,844 | INFO | scripts.transform | Data transformation successful. Output saved to processed_data/sales_cleaned.csv
+2025-12-15 10:32:34,844 | INFO | scripts.upload_to_s3 | Uploading processed_data/sales_cleaned.csv to s3://ajay-de-project-demo-bucket/processed/sales_cleaned.csv
+2025-12-15 10:32:34,895 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2025-12-15 10:32:36,249 | INFO | scripts.upload_to_s3 | File uploaded to S3 successfully
+2025-12-15 10:32:36,249 | INFO | __main__ | Application finished successfully
+2025-12-15 10:36:13,510 | INFO | __main__ | Application started
+2025-12-15 10:36:13,510 | INFO | scripts.transform | Reading input file: input_data/sales.csv
+2025-12-15 10:36:13,510 | INFO | scripts.transform | Handling missing values
+2025-12-15 10:36:13,510 | INFO | scripts.transform | Creating total_amount column
+2025-12-15 10:36:13,510 | INFO | scripts.transform | Data transformation successful. Output saved to processed_data/sales_cleaned.csv
+2025-12-15 10:36:13,510 | INFO | scripts.upload_to_s3 | Uploading processed_data/sales_cleaned.csv to s3://ajay-de-project-demo-bucket/processed/sales_cleaned.csv
+2025-12-15 10:36:13,544 | INFO | botocore.credentials | Found credentials in shared credentials file: ~/.aws/credentials
+2025-12-15 10:36:14,930 | INFO | scripts.upload_to_s3 | File uploaded to S3 successfully
+2025-12-15 10:36:14,930 | INFO | __main__ | Application finished successfully

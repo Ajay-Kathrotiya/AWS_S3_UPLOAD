@@ -1,0 +1,11 @@
+order_id,product,price,quantity,total_amount
+1001,Laptop,55000.0,1,55000.0
+1002,Mouse,500.0,2,1000.0
+1003,Keyboard,0.0,1,0.0
+1004,Monitor,12000.0,1,12000.0
+1005,Headphones,2500.0,3,7500.0
+1006,USB Cable,0.0,2,0.0
+1007,Webcam,3000.0,1,3000.0
+1008,Chair,7000.0,1,7000.0
+1009,Desk,15000.0,1,15000.0
+1010,Pen Drive,800.0,4,3200.0
